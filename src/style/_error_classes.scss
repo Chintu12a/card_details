@@ -1,0 +1,11 @@
+.labels_error {
+    color: var(--error_red);
+}
+
+.labels_error ~ .input-fields {
+    border-color: var(--error_red);
+}
+
+.labels_error ~ .input_error {
+    display: inline-block;
+}
